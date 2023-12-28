@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crudCRUD-Java-SpringBoot-Angular": {
+    "CRUD-Java-SpringBoot-Angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "crudCRUD-Java-SpringBoot-Angular:build:production"
+              "browserTarget": "CRUD-Java-SpringBoot-Angular:build:production"
             },
             "development": {
-              "browserTarget": "crudCRUD-Java-SpringBoot-Angular:build:development"
+              "browserTarget": "CRUD-Java-SpringBoot-Angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "crudCRUD-Java-SpringBoot-Angular:build"
+            "browserTarget": "CRUD-Java-SpringBoot-Angular:build"
           }
         },
         "test": {

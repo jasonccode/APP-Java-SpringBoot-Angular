@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'crudCRUD-Java-SpringBoot-Angular'`, () => {
+  it(`should have as title 'CRUD-Java-SpringBoot-Angular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('crudCRUD-Java-SpringBoot-Angular');
+    expect(app.title).toEqual('CRUD-Java-SpringBoot-Angular');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('crudCRUD-Java-SpringBoot-Angular app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('CRUD-Java-SpringBoot-Angular app is running!');
   });
 });
