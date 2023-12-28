@@ -1,27 +1,14 @@
-# CrudCRUDJavaSpringBootAngular
+# CRUD Java SpringBoot Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Este proyecto se desarrollo de un CRUD utilizando Java 17 y el framework Spring Boot para el backend con postgreSQL como base de datos y Angular como framework para el frontend.
 
-## Development server
+### Contenido del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+En este proyecto, hemos desarrollado una demostración de gestión de tarjetas de crédito. Aquí hay un resumen de las funcionalidades implementadas:
 
-## Code scaffolding
+- Listado de Tarjetas: Visualización de las tarjetas existentes con detalles como nombre, número, tipo y código secreto.
+- Registro de Nueva Tarjeta: Permite agregar una nueva tarjeta con su correspondiente código secreto.
+- Actualización de Tarjeta: Funcionalidad para actualizar la información de una tarjeta existente.
+- Eliminación de Tarjeta: Posibilidad de eliminar una tarjeta de la base de datos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img width="1267" alt="proyecto java" src="https://github.com/jasonccode/APP-Java-SpringBoot-Angular/assets/105800226/a8dafa1a-71c1-4bbd-a344-f039703a4fa6">
