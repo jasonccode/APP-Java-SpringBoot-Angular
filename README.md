@@ -1,6 +1,6 @@
 # CRUD Java SpringBoot Angular
 
-Este proyecto se desarrollo de un CRUD utilizando Java 17 y el framework Spring Boot para el backend con postgreSQL como base de datos y Angular como framework para el frontend.
+Este proyecto se desarrollo de un CRUD utilizando Java 17 y el framework Spring Boot para el backend con postgreSQL como base de datos y Angular como framework para el frontend que consume la API del repositorio https://github.com/jasonccode/CRUD-Java-SpringBoot-Angular
 
 ### Contenido del Proyecto
 
